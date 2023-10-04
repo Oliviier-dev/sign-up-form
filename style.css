@@ -100,4 +100,34 @@
 input{
     border: 2px #E5E7EB solid;
     padding: 2px 4px;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+.footer{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+button{
+    padding: 8px 30px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 8px; 
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.footer p a{
+    color: #596D48;
 }
