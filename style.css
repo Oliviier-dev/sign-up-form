@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    background-image: url(resources/neom-xhMz5xIbhRg-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff; 
+    height: 100vh;
+    width: 40vw;
+}
+
+.credits a{
+    color: #fff;
+}
+
+.credits{
+    font-size: 16px;
+}
+
+.image-container{
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.image-container > p{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image-container > img{
+    width: 80px;
+}
