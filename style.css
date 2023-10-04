@@ -53,6 +53,7 @@
 .right{
     display: flex;
     flex-direction: column;
+    background-color: #ddd;
 }
 
 .intro, .footer{
@@ -73,4 +74,30 @@
 
 .intro p:first-child{
     padding-bottom: 20px;
+}
+
+.form{
+    background-color: #fff;
+    z-index: 999;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form h2{
+    padding-bottom: 20px;
+}
+
+.names, .contact, .password{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    gap: 80px;
+}
+
+input{
+    border: 2px #E5E7EB solid;
+    padding: 2px 4px;
 }
