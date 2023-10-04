@@ -49,3 +49,28 @@
 .image-container > img{
     width: 80px;
 }
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro, .footer{
+    background-color: #ddd;
+}
+
+.intro{
+    padding-left: 40px;
+    font-weight: 800;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.intro p{
+    width: 70%;
+    font-size: 18px;
+}
+
+.intro p:first-child{
+    padding-bottom: 20px;
+}
