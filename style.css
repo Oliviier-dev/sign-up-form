@@ -5,6 +5,15 @@
     line-height: 1.4;
 }
 
+body{
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: 'Norse Bold'; /* Provide a name for your font */
+    src: url('resources/Norse-Bold.otf');
+}
+
 .container{
     display: flex;
 }
@@ -43,7 +52,8 @@
 
 .image-container > p{
     font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Norse Bold';
 }
 
 .image-container > img{
